@@ -14,30 +14,18 @@ const client = new ApolloClient({
 function App() {
   return (
     <ApolloProvider client={client}>
-      <div className="flex-column justify-flex-start min-100-vh">
-        <Header />
-        <div className="container">
-          <Home />
-        </div>
-        <Footer />
-      </div>
+      <Router>
+        <>
+          <Navbar />
+          <Switch>
+            <Route exact path='/' component={SearchBooks} />
+            <Route exact path='/saved' component={SavedBooks} />
+            <Route render={() => <h1 className='display-2'>Wrong page!</h1>} />
+          </Switch>
+        </>
+      </Router>
     </ApolloProvider>
   );
 }
-
-// function App() {
-//   return (
-//     <Router>
-//       <>
-//         <Navbar />
-//         <Switch>
-//           <Route exact path='/' component={SearchBooks} />
-//           <Route exact path='/saved' component={SavedBooks} />
-//           <Route render={() => <h1 className='display-2'>Wrong page!</h1>} />
-//         </Switch>
-//       </>
-//     </Router>
-//   );
-// }
 
 export default App;
