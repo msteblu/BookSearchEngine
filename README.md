@@ -29,10 +29,10 @@ If you use the application through the deployed [Heroku site](https://rocky-taig
 _If the program was cloned, downloaded, and installed instead, get the application running by typing "npm run develop" into the command-line. All features of the application are then accessible through localhost on your browser or other applications._
 
 _Search Books_
-![Screenshot of Homepage](public/assets/images/Search.png)
+![Screenshot of Homepage](client/public/assets/images/Search.png)
 
 _My Books_
-![Screenshot of Offline Capabilities](public/assets/images/Books.png)
+![Screenshot of Offline Capabilities](client/public/assets/images/Books.png)
 
 ## Credits
 
