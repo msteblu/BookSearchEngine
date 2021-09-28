@@ -2,13 +2,11 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-![Apollo-GraphQL](https://img.shields.io/badge/-ApolloGraphQL-311C87?style=for-the-badge&logo=apollo-graphql)(https://www.apollographql.com/) ![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)(https://graphql.org/)
+![Apollo-GraphQL](https://img.shields.io/badge/-ApolloGraphQL-311C87?style=for-the-badge&logo=apollo-graphql)![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
 
 ## Description
 
-This application provides a budget tracker where users can keep track of their deposits and expenses. It saves and displays users' expenses and deposits in a table and graph — and has offline capability, so that none of the entries will be lost.
-
-The offline capability functions with Webpack and Babel.
+This application uses GraphQL and Apollo Server to allow users to search books and save them in a list for later reading or purchasing.
 
 ## Table of Contents
 
@@ -20,27 +18,25 @@ The offline capability functions with Webpack and Babel.
 
 ## Installation
 
-To use this application, navigate to the deployed Heroku [site](https://quiet-reef-97702.herokuapp.com/).
+To use this application, navigate to the deployed Heroku [site](https://rocky-taiga-17481.herokuapp.com/).
 
-To install this application locally yourself, download and clone the files from this repository. Run 'npm install' to install the packages in the package.json (and in a second package.json in the _public_ folder).
-
-The server can be started in the command-line by running 'npm start,' and the application can be viewed on your local browser at _localhost_.
+_To install this application locally yourself, download and clone the files from this repository. Run 'npm run install' to install the packages in the package.jsons, 'npm run build' to create a build, and 'npm run develop' to start the application in your local browser._
 
 ## Usage
 
-If you use the application through the deployed [Heroku site](https://quiet-reef-97702.herokuapp.com/), simply navigate to and interact with the site from there. Add deposits and expenses and keep track of your budget with the table and graph. With its offline capabilities, the app will function the same way if you happen to go offline.
+If you use the application through the deployed [Heroku site](https://rocky-taiga-17481.herokuapp.com/), simply navigate to and interact with the site from there. Sign up and log in before searching books on the Search for Books page. Save books and view them on the See Your Books page.
 
-If the program was cloned, downloaded, and installed instead, get the application running by typing "npm start" into the command-line. All features of the application are then accessible through _localhost_ on your browser or other applications.
+_If the program was cloned, downloaded, and installed instead, get the application running by typing "npm run develop" into the command-line. All features of the application are then accessible through localhost on your browser or other applications._
 
-_Home: View Budget_
-![Screenshot of Homepage](public/assets/images/home.png)
+_Search Books_
+![Screenshot of Homepage](public/assets/images/Search.png)
 
-_Offline Capabilities_
-![Screenshot of Offline Capabilities](public/assets/images/offline.png)
+_My Books_
+![Screenshot of Offline Capabilities](public/assets/images/Books.png)
 
 ## Credits
 
-Starter code provided by the University of Minnesota Coding Bootcamp. 
+Starter code (of a functioning MERN application) provided by the University of Minnesota Coding Bootcamp. I refactored the starting code to work with GraphQL API and Apollo Server.
 
 ## License
 
